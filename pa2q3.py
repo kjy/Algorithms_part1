@@ -95,7 +95,7 @@ def quicksort(myList, left, right):
         
 
 """
-Code does not work for even lenghth array
+
 
 
 for size 10 array, first = 25, last = 29, median = 21
