@@ -148,20 +148,6 @@ list1 = [-7590801,-3823598,-5316263,-2616332,-7575597,-621530,-7469475,1084712,-
 
 expectd result: 6 (got 12)
 
-For each list1, divide by 2 to get answer
-
-
-In python I used a dictionary to hold the data.  The dictionary has about 100,000+ records
-(much less than the million that we would get if we added each input record to
-the dictionary).
-Each key has a associated list of input values that fall in range of the key.
-No key has more than 17 values.  I then work thru the dictionary looking at each value x.
-I calculcate the range of values that could be added to x to  arrive at the necessary interval(- 10000 to 10000).
-I can easily then locate the one or two records in the hashtable that would could contain that range.
-I then look at the list associated with that key or keys. It runs very quickly and gives the correct answer.
-
-to find the complement, you need to use a python set and then it goes quite quick.
-It calculated everything for me in about 2 minutes.
 
 
 
